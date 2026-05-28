@@ -214,3 +214,27 @@ async fn comp_sample(ctx: OrchestrationContext) -> String {
 - Timers are real time (Tokio sleep). External events are via `Runtime::raise_event`.
 - Unknown-instance messages are logged and dropped. Providers persist history only (queues are in-memory runtime components).
 - Logging is replay-safe by treating it as a system activity via `ctx.trace_*` helpers; logs are emitted through tracing at completion time (not persisted as history events).
+
+## Support
+
+Use GitHub Issues for bug reports and feature requests. Do not report security vulnerabilities through public GitHub issues; follow the instructions in [SECURITY.md](SECURITY.md) instead.
+
+## Code of Conduct
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with questions or comments.
+
+## Security
+
+Microsoft takes the security of our software products and services seriously. Please do not report security vulnerabilities through public GitHub issues. See [SECURITY.md](SECURITY.md) for security reporting instructions.
+
+## Privacy and Telemetry
+
+duroxide does not send telemetry to Microsoft. Applications may configure their own logging or metrics exporters; those signals are controlled by the application owner.
+
+## Trademarks
+
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general). Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship. Any use of third-party trademarks or logos is subject to those third-party policies.
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
