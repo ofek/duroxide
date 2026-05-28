@@ -96,7 +96,7 @@ Benefits:
 - No new configuration options
 - Consistent behavior with other "repeatedly failing" scenarios
 - Single code path for "message keeps bouncing"
-- Already tested and production-ready
+- Already tested and ready to reuse
 
 ### Exponential Backoff Calculation
 

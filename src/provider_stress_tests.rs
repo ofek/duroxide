@@ -127,7 +127,7 @@
 //!
 //! ## Interpreting Results
 //!
-//! **Success Rate**: Should be 100% for production-ready providers. Any failures indicate issues:
+//! **Success Rate**: Should be 100% for providers under stress validation. Any failures indicate issues:
 //! - Infrastructure failures: Provider bugs, lock issues, data corruption
 //! - Configuration failures: Missing implementations, nondeterminism detection
 //! - Application failures: Expected orchestration/activity errors (should be rare in stress tests)

@@ -156,7 +156,7 @@ T+1:02  UI/API refreshes → now shows v1.0.2
    /// - Added retry logic for health checks
    ```
 
-5. **Test version transitions** in development before production
+5. **Test version transitions** in development before rollout
    - Deploy new version
    - Verify old version completes its cycle
    - Verify new version starts after `continue_as_new`

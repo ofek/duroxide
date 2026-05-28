@@ -259,4 +259,4 @@ With `replay-version-test` disabled:
 - No new test code compiled
 - Binary output identical to pre-change
 
-This feature exists purely to verify the versioning mechanism works. It is not a production feature.
+This feature exists purely to verify the versioning mechanism works. It is preview validation scaffolding.
